@@ -2,13 +2,12 @@ import puppeteer from 'puppeteer';
 
 async function checkGPU() {
   const browser = await puppeteer.launch({
+    headless: true,
     args: [
       '--no-sandbox',
+      '--use-gl=angle',
       '--use-angle=vulkan',
-      '--enable-features=Vulkan',
-      '--disable-vulkan-surface',
-      '--enable-unsafe-webgpu'
-    ]
+    ],
   });
 
   try {
