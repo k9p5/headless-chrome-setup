@@ -1,5 +1,13 @@
 {
   "name": "create-operator",
+  "version": "0.0.1",
+  "description": "The operator framework for typescript",
+  "main": "check_gpu.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Konstantin Paulus",
+  "license": "MIT",
   "type": "module",
   "dependencies": {
     "puppeteer": "^24.2.1"
