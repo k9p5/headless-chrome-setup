@@ -1,0 +1,7 @@
+{
+  "name": "create-operator",
+  "type": "module",
+  "dependencies": {
+    "puppeteer": "^24.2.1"
+  }
+}
